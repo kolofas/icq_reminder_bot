@@ -10,11 +10,11 @@ import logging
 logging.basicConfig(filename='checker_reminder.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Создание подключения к базе данных
-engine = create_engine('postgresql+psycopg2://kolofas:okoko@localhost/icqdatabase')
+engine = create_engine('database_url')
 Session = sessionmaker(bind=engine)
 
 
-TOKEN = '001.2762277535.2286663239:1011313001'
+TOKEN = 'token'
 
 
 # Создание экземпляра бота
