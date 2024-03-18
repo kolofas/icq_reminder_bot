@@ -4,7 +4,7 @@ from async_icq.bot import AsyncBot
 from handlers import handle_message
 
 
-TOKEN = '001.2762277535.2286663239:1011313001'
+TOKEN = <your_token>
 
 logging.basicConfig(filename='main.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
